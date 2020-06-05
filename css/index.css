@@ -213,3 +213,25 @@ header{
 .box:nth-child(10){
     background-color: dodgerblue;
 }
+
+.longSections {
+    /* padding: 3%; */
+    /* padding */
+}
+.longSections:first-child{
+    border-bottom: dotted black;
+    margin-bottom: 20px;
+    padding-bottom: 3%;
+}
+.half{
+    display: flex;
+}
+.containerItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: dotted black;
+    margin-bottom: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
