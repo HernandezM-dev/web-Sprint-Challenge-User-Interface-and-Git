@@ -215,14 +215,18 @@ header{
 }
 
 .longSections {
-    /* padding: 3%; */
+   padding: 2%;
+   margin-bottom: 20px;
     /* padding */
 }
 .longSections:first-child{
-    border-bottom: dotted black;
-    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-top: 0px;
     padding-bottom: 3%;
 }
+/* .longSections:last-child{
+    margin-bottom: ;
+} */
 .half{
     display: flex;
 }
@@ -230,8 +234,25 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-bottom: dotted black;
+    border-bottom: 1px dashed black;
     margin-bottom: 30px;
     margin-left: 2%;
     margin-right: 2%;
+}
+
+.containerItems h4{
+    margin-top: 4%;
+}
+
+.containerItems p{
+    margin-bottom: 4%;
+}
+
+.containerItems a{
+    padding: 3%;
+    border: 2px solid black;
+    width: 40%;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 15px;
 }
